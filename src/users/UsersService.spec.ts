@@ -6,7 +6,7 @@ import {
   NotFoundException,
 } from '@nestjs/common';
 import { UsersService } from './UsersService';
-import { User } from './schema/User.schema';
+import { User } from './schema/UserSchema';
 import { Role } from './enum/Role.enum';
 
 describe('UsersService', () => {
