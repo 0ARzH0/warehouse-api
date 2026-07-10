@@ -3,7 +3,7 @@ import { Logger } from '@nestjs/common';
 import { join } from 'path';
 import { AppModule } from '../AppModule';
 import { UsersService } from '../users/UsersService';
-import { Role } from '../users/enum/Role.enum';
+import { Role } from '../users/enum/RoleEnum';
 import { loadEnvFile } from '../config/loadEnvFile';
 
 const logger = new Logger('SeedAdmin');

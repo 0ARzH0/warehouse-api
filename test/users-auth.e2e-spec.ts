@@ -4,7 +4,7 @@ import * as request from 'supertest';
 import { startInMemoryMongo } from './utils/mongoMemoryServer';
 import { createTestApp } from './utils/createTestApp';
 import { UsersService } from '../src/users/UsersService';
-import { Role } from '../src/users/enum/Role.enum';
+import { Role } from '../src/users/enum/RoleEnum';
 
 describe('Users & Auth (e2e)', () => {
   let app: INestApplication;

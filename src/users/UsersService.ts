@@ -9,7 +9,7 @@ import { Model } from 'mongoose';
 import { User, UserDocument } from './schema/UserSchema';
 import { CreateUserDto } from './dto/CreateUserDto';
 import { UpdateUserDto } from './dto/UpdateUserDto';
-import { Role } from './enum/Role.enum';
+import { Role } from './enum/RoleEnum';
 
 interface RequestingUser {
   userId: string;

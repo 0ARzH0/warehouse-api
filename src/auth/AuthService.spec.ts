@@ -4,7 +4,7 @@ import { UnauthorizedException } from '@nestjs/common';
 import * as bcrypt from 'bcrypt';
 import { AuthService } from './AuthService';
 import { UsersService } from '../users/UsersService';
-import { Role } from '../users/enum/Role.enum';
+import { Role } from '../users/enum/RoleEnum';
 
 describe('AuthService', () => {
   let service: AuthService;

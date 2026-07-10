@@ -1,6 +1,6 @@
 import { seedAdmin } from './seedAdmin';
 import { UsersService } from '../users/UsersService';
-import { Role } from '../users/enum/Role.enum';
+import { Role } from '../users/enum/RoleEnum';
 
 describe('seedAdmin', () => {
   let usersService: jest.Mocked<UsersService>;

@@ -1,6 +1,6 @@
 import { UnauthorizedException } from '@nestjs/common';
 import { JwtStrategy } from './JwtStrategy';
-import { Role } from '../../users/enum/Role.enum';
+import { Role } from '../../users/enum/RoleEnum';
 
 describe('JwtStrategy', () => {
   const previousSecret = process.env.JWT_SECRET;

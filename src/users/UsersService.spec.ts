@@ -7,7 +7,7 @@ import {
 } from '@nestjs/common';
 import { UsersService } from './UsersService';
 import { User } from './schema/UserSchema';
-import { Role } from './enum/Role.enum';
+import { Role } from './enum/RoleEnum';
 
 describe('UsersService', () => {
   let service: UsersService;
